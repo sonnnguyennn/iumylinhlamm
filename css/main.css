@@ -214,3 +214,14 @@ img {
   mask-border: var(--_m);
   clip-path: polygon(-41% 0, 50% 91%, 141% 0);
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .pic {
+    width: 100vw;
+    height: 100vh;
+  }
+  .content .pic:nth-child(1), .pic:nth-child(2), .pic:nth-child(4){
+    display: none;
+  }
+}
