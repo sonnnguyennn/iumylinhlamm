@@ -216,7 +216,7 @@ img {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .pic {
     width: 100vw;
     height: 100vh;
