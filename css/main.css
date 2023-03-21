@@ -230,4 +230,7 @@ img {
   .title h3 {
     font-size: 35px;
   }
+  .content .pic:nth-child(3){
+    opacity: 0.9;
+  }
 }
